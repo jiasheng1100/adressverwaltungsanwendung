@@ -44,3 +44,32 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+Aufgabe: Implementierung einer „Adressverwaltungsanwendung“
+
+ 
+
+Funktionalitäten der Anwendung:
+
+    Tabellarische Auflistung aller Adressen
+        In der Produktion können es bis zu 5000 sein
+        Pro Datenfeld eine Spalte
+    Neuanlage einer Adresse
+        Folgende Felder der Adresse
+            Vorname, Nachname, E-Mail, Telefon, PLZ, Ort, Land
+         
+    Bearbeiten einer Adresse auf einer eigenen Seite
+        Folgende Felder der Adresse
+            Vorname, Nachname, E-Mail, Telefon, PLZ, Ort, Land
+
+ 
+
+Randbedingungen:
+
+    Front-End in React + TypeScript
+    Backend wird nicht benötigt
+        Es reicht die Daten aus einer JSON-Datei zu erhalten (siehe Beispiel im Anhang)
+        Alternativ: Daten können in einem Service „gemocked“ zurückgegeben werden
+        Daten liegen im Browser und müssen somit nicht an ein Backend geschickt werden. Man kann den Aufruf aber andeuten oder einen Dummy-Endpunkt aufrufen, der nichts macht
+    Validierung der Daten, wo sinnvoll
+    Umfang: 4-6 h

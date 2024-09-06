@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
+import Table from "./components/Table"
+import data from "./data/test_adressen_human_readable.json"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const headers: string[] = ["Vorname", "Nachname", "E-Mail", "Telefon", "PLZ", "Ort", "Land"];
+
+console.log(data)
+
+const App: React.FC = () => {
+    return (
+        <div className="App">
+            <span className="heading">Adressverwaltung</span>
+            <Table headers={headers} data={data}></Table>
+        </div>
+
+    );
 }
 
 export default App;
