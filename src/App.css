@@ -4,7 +4,16 @@
     align-items: center;
 }
 
-.heading {
+.head {
     font-size: 40px;
     text-align: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+.error {
+    color: red;
 }
