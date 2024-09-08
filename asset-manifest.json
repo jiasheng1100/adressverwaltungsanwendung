@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/adressverwaltungsanwendung/static/css/main.00cdaf9e.css",
-    "main.js": "/adressverwaltungsanwendung/static/js/main.e94264fa.js",
+    "main.js": "/adressverwaltungsanwendung/static/js/main.dde2b521.js",
     "index.html": "/adressverwaltungsanwendung/index.html",
     "main.00cdaf9e.css.map": "/adressverwaltungsanwendung/static/css/main.00cdaf9e.css.map",
-    "main.e94264fa.js.map": "/adressverwaltungsanwendung/static/js/main.e94264fa.js.map"
+    "main.dde2b521.js.map": "/adressverwaltungsanwendung/static/js/main.dde2b521.js.map"
   },
   "entrypoints": [
     "static/css/main.00cdaf9e.css",
-    "static/js/main.e94264fa.js"
+    "static/js/main.dde2b521.js"
   ]
 }
