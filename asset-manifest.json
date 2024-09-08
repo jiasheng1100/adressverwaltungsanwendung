@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/adressverwaltungsanwendung/static/css/main.00cdaf9e.css",
+    "main.js": "/adressverwaltungsanwendung/static/js/main.e94264fa.js",
+    "index.html": "/adressverwaltungsanwendung/index.html",
+    "main.00cdaf9e.css.map": "/adressverwaltungsanwendung/static/css/main.00cdaf9e.css.map",
+    "main.e94264fa.js.map": "/adressverwaltungsanwendung/static/js/main.e94264fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00cdaf9e.css",
+    "static/js/main.e94264fa.js"
+  ]
+}
