@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 interface Adresse {
     Vorname: string;
     Nachname: string;
@@ -33,6 +35,7 @@ const Table = ({ headers, data }: TableProps): JSX.Element => {
                         <td key={`plz${index}`}>{address.PLZ}</td>
                         <td key={`ort${index}`}>{address.Ort}</td>
                         <td key={`land${index}`}>{address.Land}</td>
+                        <td><Link to={`/edit/${index}`}>Bearbeiten</Link></td>
                     </tr>
                 )}
             </tbody>
